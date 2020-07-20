@@ -1,0 +1,6 @@
+cx-Oracle
+pyftpdlib
+configparser
+logging
+pandas
+ftplib
