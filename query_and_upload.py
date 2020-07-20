@@ -22,11 +22,10 @@ def query_to_csv(query):
     
     
     
-        display(df)
-        file_name = input("保存csv为（不用csv后缀,如果不保存不填写）：   ")
-        if file_name !="":
-            df.to_csv(file_name+".csv")
-            print("Successfully Saved to CSV in path: "+file_name+".csv")
+        file_name = input("保存csv为（不用csv后缀,默认保存到test.csv）：   ")
+        if file_name =="":
+            file_name = "test"
+        df.to_csv(file_name+".csv")
         cursor.close()
         print("Finished")
         return file_name+".csv"
