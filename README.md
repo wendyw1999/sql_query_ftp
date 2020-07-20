@@ -9,6 +9,9 @@ test.csv是一个query后得到的csv
 
 
 # 准备工作
+## 配置用户名
+打开user.init 将用户的home directory改成ftp path
+
 
 ## FTP
 1. 知道ftp的ip和端口，本地默认为127.0.0.1 和2121
