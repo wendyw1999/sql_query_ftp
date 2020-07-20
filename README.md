@@ -23,7 +23,6 @@ python start_ftp.py
 ![开启FTP](start.PNG)
 
 # 开始进行query并上传
-新启一个cmd
 
 cmd中来到目录路径：
 python query_and_upload.py
