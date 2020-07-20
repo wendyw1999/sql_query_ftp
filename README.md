@@ -1,6 +1,12 @@
 两个py file，分别是start_ftp.py和query_and_upload.py
+
+
 user.ini是ftp的登陆用户&密码信息
+
+
 test.csv是一个query后得到的csv
+
+
 
 # 准备工作
 
@@ -28,3 +34,8 @@ cmd中来到目录路径：
 python query_and_upload.py
 
 ![sql Query](query.PNG)
+
+
+# 需要进行改进的地方
+1. 目前只有Oracle DB
+2. 没有提供一个sql数据库作为example。
